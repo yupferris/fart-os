@@ -14,4 +14,4 @@ You've been warned.
 
 ### CONFIGURATION:
 
-You can tweak the ASFLAGS environment variable like this `ASFLAGS=-DSUBJECT=\\"Ola\\" make` to localize fart-os to your particular cultural environment.
+You can tweak the ASFLAGS environment variable like this `ASFLAGS=-DSUBJECT=\\\"Ola\\\" make` to localize fart-os to your particular cultural environment.
