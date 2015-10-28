@@ -1,4 +1,4 @@
-all: boot.bin install
+all: boot.bin
 
 install:
 	dd if=boot.bin bs=512 of=/dev/sdb

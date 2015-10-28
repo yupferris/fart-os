@@ -8,6 +8,6 @@ The only OS in the world that eliminates all the bloat and lets you do exactly w
 _This is an inside joke from 2013. Dave is actually fantastic. <3_
 
 ## WARNING:
-#### `make install` or `make` will overwrite the bootsector of `/dev/sdb`. So you probably don't wanna run that.
+#### `make install` will overwrite the bootsector of `/dev/sdb`. So you probably don't wanna run that.
 
 You've been warned.
