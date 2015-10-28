@@ -10,7 +10,7 @@ boot.bin: pad boot-raw.bin
 	./pad boot-raw.bin boot.bin
 
 boot-raw.bin: boot.asm
-	nasm -o boot-raw.bin boot.asm
+	nasm $(ASFLAGS) -o boot-raw.bin boot.asm
 
 pad:
 	clang -o pad pad.c
