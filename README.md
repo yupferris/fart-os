@@ -11,3 +11,7 @@ _This is an inside joke from 2013. Dave is actually fantastic. <3_
 #### `make install` will overwrite the bootsector of `/dev/sdb`. So you probably don't wanna run that.
 
 You've been warned.
+
+### CONFIGURATION:
+
+You can tweak the ASFLAGS environment variable like this `ASFLAGS=-DSUBJECT=\\"Ola\\" make` to localize fart-os to your particular cultural environment.

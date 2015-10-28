@@ -1,3 +1,7 @@
+%ifndef SUBJECT
+%define SUBJECT "Dave"
+%endif
+
 [bits 16]
 [org 7c00h]
 jmp 0000:entry
@@ -61,4 +65,4 @@ printCharInt:
 hello:
 	db "Fart OS 0.0.1", 0ah, "(C)2013 Jake Taylor", 0ah, 0ah, 0
 daveSucks:
-	db ">Dave sucks.", 0ah, 0
+	db ">", SUBJECT, " sucks.", 0ah, 0
